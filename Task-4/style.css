@@ -1,0 +1,28 @@
+.infinite-scroll {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: row;
+    width: 200%; /* This is the key to the infinite scroll effect */
+    animation: infinite-scroll 25s linear infinite;
+    justify-content: end;
+    
+    
+  }
+  
+  @keyframes infinite-scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+/* slider */

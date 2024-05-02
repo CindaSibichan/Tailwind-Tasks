@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Additional custom styles */
+        .active {
+            display: block;
+        }
+        .inactive {
+            display: none;
+        }
+    </style>
+
+   
+</head>
+<body>
+    <div class="maindiv w-full h-screen  bg-slate-400">
+        <div class="navbar w-full h-[10vh] flex justify-between items-center px-4 md:px-8 lg:px-16 bg-gray-200">
+            <div class="iconhead flex items-center">
+                <img src="./Images/Icon (7).svg" alt="" class="w-8 h-8 md:w-12 md:h-12 lg:w-7 lg:h-7">
+                <h2 class="ml-2 text-xl font-bold lg:font-medium">Nexcent</h2>
+            </div>
+            <div class="flex items-center">
+                <!-- Move the button and menu to the right -->
+                <div id="menu" class="links hidden lg:flex items-center gap-5 ml-auto">
+                    <a href="#" class="font-medium text-gray-500">Home</a>
+                    <a href="#" class="font-medium text-gray-500">Features</a>
+                    <a href="#" class="font-medium text-gray-500">Community</a>
+                    <a href="#" class="font-medium text-gray-500">Pricing</a>
+                    <button type="button" class="text-white bg-green-600 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium text-xs lg:text-sm px-2 py-1 lg:px-3 lg:py-2 text-center">
+                        Register Now
+                    </button>
+                </div> 
+                <!-- Hamburger icon -->
+                <button id="menu-toggle" class="block lg:hidden">
+                    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                        <path class="menu-bar" fill-rule="evenodd" clip-rule="evenodd" d="M4 6h16V7H4V6ZM4 11h16v1H4v-1Zm0 5h16v1H4v-1Z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        
+      <div class="picture flex-col lg:flex">
+        <div class=" photos w-1/2 overflow-hidden h-2/4 py-10 ">
+            <img  src=" https://images.unsplash.com/photo-1707343846292-56e4c6abf291?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " alt="  ">
+        </div>
+        <div class="text flex justify-between place-items-center px-96 py= 96 ">
+            <p>The salty smell so strong that one can taste it dancing on ones taste buds. The ocean looked like an enormous pool of wonder. It was exceptionally blue that day with a slight green undertone. The surface looked as though it was covered with millions of diamonds crashing with the waves and kissing the sand.</p>
+        </div>
+      </div>
+</div> 
+<script>
+    // JavaScript to toggle the visibility of the menu on small screens
+    const menuToggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('menu');
+
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+        menu.classList.toggle('inactive');
+    });
+</script> 
+</body>
+</html>
+
+
+<div class="main6 w-full h-[130vh] bg-black">
+    <div class="page6 w-full h-screen flex flex-col justify-center items-center">
+
+        <div class="headdiv text-white text-center text-4xl flex justify-center items-center">
+            <h1>Get Uvodo for your industry</h1>
+        </div>
+    
+        <div class="scrolldiv w-full h-[80vh] mt-20 overflow-x-auto">
+            <div class="flex">
+                <div class="firstscroll w-[35vw] flex flex-col lg:px-10 bg-black">
+                    <img src="./images/scrollpic1.svg" alt="" class="w-full h-auto lg:w-[50vw] lg:h-[60vh]">
+                    <h2 class="text-white lg:pl-8 text-xl">Local business</h2>
+                    <h3 class="text-gray-400 lg:pl-8 text-sm mt-2">Sell locally with WhatsApp and cash on <br> delivery payment methods </h3>
+                </div>
+                <div class="firstscroll w-[35vw] flex flex-col lg:px-10">
+                    <img src="./images/scrollpic2.svg" alt="" class="w-full h-auto lg:w-[50vw] lg:h-[60vh]">
+                    <h2 class="text-white text-xl lg:pl-8">Small businesses</h2>
+                    <h3 class="text-gray-400 text-sm lg:pl-8 mt-2">Move your retail business online and start<br> selling products on a free website.</h3>
+                </div>
+                <div class="firstscroll w-[35vw] flex flex-col lg:px-10">
+                    <img src="./images/scrollpic3.svg" alt="" class="w-full h-auto lg:w-[50vw] lg:h-[60vh]">
+                    <h2 class="text-white text-xl lg:pl-8">Social Media sellers</h2>
+                    <h3 class="text-gray-400 text-sm lg:pl-8 mt-2">Increase your Instagram sales with <br> Uvodo's all-in-one eCommerce platform </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+</div>
+
+
+
+
+
+
+<!-- task-4 -->
+<div class="main6 w-full h-[200vh] lg:h-[130vh] bg-black">
+    <div class="page6 w-full h-screen flex flex-col justify-center items-center mt-10 lg:mt-0">
+
+        <div class="headdiv text-white text-center text-4xl flex justify-center items-center">
+            <h1>Get Uvodo for your industry</h1>
+        </div>
+    
+        <div class="scrolldiv w-full h-[160vh] lg:h-[80vh] mt-20 px-8 lg:px-0">
+            
+            <div class="flex flex-wrap lg:flex-nowrap ">
+                <div class="firstscroll w-full w-[35vw] flex flex-col lg:px-10 bg-black">
+                    <img src="./images/scrollpic1.svg" alt="" class="w-full h-[50vh] lg:w-[50vw] lg:h-[60vh]">
+                    <h2 class="text-white lg:pl-8 text-xl pl-6">Local business</h2>
+                    <h3 class="text-gray-400 lg:pl-8 pl-6 text-sm mt-2">Sell locally with WhatsApp and cash on <br> delivery payment methods </h3>
+                </div>
+                <div class="firstscroll w-full w-[35vw] flex flex-col lg:px-10 mt-6 lg:mt-0">
+                    <img src="./images/scrollpic2.svg" alt="" class="w-full h-[50vh] lg:w-[50vw] lg:h-[60vh]">
+                    <h2 class="text-white text-xl lg:pl-8 pl-6">Small businesses</h2>
+                    <h3 class="text-gray-400 text-sm lg:pl-8 pl-6 mt-2">Move your retail business online and start<br> selling products on a free website.</h3>
+                </div>
+                <div class="firstscroll w-full w-[35vw] flex flex-col lg:px-10 mt-6 lg:mt-0">
+                    <img src="./images/scrollpic3.svg" alt="" class="w-full h-[50vh] lg:w-[50vw] lg:h-[60vh]">
+                    <h2 class="text-white text-xl lg:pl-8 pl-6 mt-2">Social Media sellers</h2>
+                    <h3 class="text-gray-400 text-sm lg:pl-8 pl-6 mt-2">Increase your Instagram sales with <br> Uvodo's all-in-one eCommerce platform </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+</div>

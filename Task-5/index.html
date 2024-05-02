@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page1 w-full h-[100vh] lg:h-[115vh] px-12 py-8 ">
+        <div class="navbar bg-white p-4">
+            <div class="container mx-auto flex justify-between items-center">
+              <div class="flex items-center">
+                <img src="./images/logo 1.svg" alt="Logo">
+              </div>
+              <div class="hidden lg:flex w-full items-center justify-center py-3 lg:pl-28">
+                <div class="links hidden md:block lg:flex items-center gap-5">
+                  <a href="index.html" class="hover:scale-110 px-3 py-0 border-t border-b border-black text-black roboto-light">MAIN</a>
+                  <a href="gallery.html" class="roboto-light text-black">GALLERY</a>
+                  <a href="projects.html" class="roboto-light text-black">PROJECTS</a>
+                  <a href="#" class="roboto-light text-black">CERTIFICATIONS</a>
+                  <a href="contact.html" class="roboto-light text-black">CONTACTS</a>
+                </div>
+              </div>
+              <div class="md:hidden relative">
+                <button id="menu-toggle" class="text-black focus:outline-none">
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <div id="mobile-menu" class="md:hidden bg-gray-600 p-4 hidden  absolute top-20 left-56 w-[50vw] ">
+            <ul class="space-y-4">
+              <li><a href="index.html" class="hover:scale-110 font-bold text-white">MAIN</a></li>
+              <li><a href="gallery.html" class="roboto-light text-white">GALLERY</a></li>
+              <li><a href="projects.html" class="roboto-light text-white">PROJECTS</a></li>
+              <li><a href="#" class="roboto-light text-white">CERTIFICATIONS</a></li>
+              <li><a href="contact.html" class="roboto-light text-white">CONTACTS</a></li>
+            </ul>
+          </div>
+          
+
+        
+        <div class="innerdiv lg:w-full h-screen lg:flex justify-between">
+        <div class="textdiv lg:w-[30vw] h-[30vh] lg:h-screen flex justify-center items-center">
+
+            <h1 class="roboto-light text-gray-400 text-5xl">PROJECT <br> <span class="roboto-light text-black text-4xl font-bold">Lorum</span> </h1>
+
+        
+        <!-- <div class="arrow">
+            <img src="./images/arrow2.svg" alt="">
+            <img src="./images/arrow1.svg" alt="">
+        </div> -->
+    </div>
+        <div class="rectangle lg:w-[50vw] h-[45vh] lg:h-[80vh]  relative lg:pr-20">
+            
+            <img src="./images/Rectangle 1.svg" alt="" class="lg:w-[50vw] lg:h-[80vh] object-cover ">
+        
+            <div class="absolute bottom-0 left-0">
+            <button type="button" class="roboto-light text-black mt-6 lg:mt-8 bg-white focus:ring-4 focus:outline-none focus:ring-green-300  dark:focus:ring-green-800 font-medium text-xs lg:text-sm px-2 py-4 lg:px-6 lg:py-4 text-center me-2  lg:ml-0">
+                VIEW PROJECT <i class="ri-arrow-right-line"></i>
+            </button>
+    
+    </div>
+
+        </div>
+    </div>
+
+
+
+    </div>
+    <div class="page2 w-full h-[190vh] lg:h-[80vh]  lg:flex justify-between  ">
+        
+        <div class="firstdiv w-full lg:w-[60vw] px-4 lg:px-10 py-8 lg:py-8 lg:h-[60vh] lg:flex justify-between items-center">
+            <div class="pic1 flex flex-col gap-6 lg:pl-28">
+                <img src="./images/Rectangle 8.svg" alt="">
+                <img src="./images/Rectangle 10.svg" alt="">
+            </div>
+            <div class="pic2  ">
+                <img src="./images/Rectangle 9.svg" alt="">
+            </div>
+        </div>
+        
+        <div class="seconddiv w-full h-[80vh] lg:w-[40vw] lg:h-[60vh] text-center lg:text-left">
+            <h1 class="roboto-light  text-6xl text-gray-400 lg:mb-10 ">About</h1>
+            <p class="text-sm text-black w-full lg:w-[30vw] gap-5 mt-4 lg:mt-0 lg:ml-0 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+            <button type="button" class="roboto-light text-gray-500 mt-6 lg:mt-8 bg-white focus:ring-4 focus:outline-none focus:ring-green-300  dark:focus:ring-green-800 font-medium text-xs lg:text-sm px-2 py-1 lg:px-6 lg:py-4 text-center me-2  lg:ml-0">
+                READ MORE <i class="ri-arrow-right-line"></i>
+            </button>
+
+
+        </div>
+    </div>
+    <div class="page3 w-full h-[115vh] lg:h-[50vh] lg:px-10">
+        <div class="textdiv text-center lg:text-left ">
+            <h1 class="roboto-light text-4xl lg:text-5xl text-gray-300 lg:ml-20">Main Focus / Mission Statement</h1>
+        </div>
+        <div class="numbersdiv w-full h-[60vh] lg:flex lg:justify-between">
+        <div class="number1 w-full lg:w-[50vw] h-[50vh] flex justify-center gap-5 items-center">
+            <img src="./images/1.svg" alt="">
+           <p class="text-xl text-black w-[70%] lg:w-[20vw]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
+        
+    </div>
+    <div class="number2 w-full lg:w-[50vw] h-[50vh] flex justify-center gap-5 items-center">
+        <img src="./images/2.svg" alt="">
+        <p class="text-xl text-black lg:w-[20vw]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, ma</p>
+
+    </div>
+    </div>
+</div>
+
+
+
+<div class="page4 w-full h-[150vh] lg:h-[115vh] px-4 lg:px-10 py-8"> 
+    <h1 class="text-4xl text-center  lg:text-6xl lg:text-left text-gray-300 lg:ml-10 lg:pl-10">Our Project</h1> 
+    <div class="rectangleimages w-full py-6 lg:py-10"> 
+
+        <div class="firstimage w-full flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-8 py-6 lg:py-8">
+            <img src="./images/Rectangle 12.svg" alt="" class="w-2/3 lg:w-2/5 hover:scale-110"> 
+            <img src="./images/image 15.svg" alt="" class="w-2/3 lg:w-2/5 hover:scale-110">
+        </div>
+        
+        <div class="secondimage w-full flex flex-col lg:flex-row gap-4 lg:gap-8 justify-center items-center py-6 lg:py-8">
+            <img src="./images/image 16.svg" alt="" class="w-2/3 lg:w-1/5 hover:scale-110"> 
+            <img src="./images/image 17.svg" alt="" class="w-2/3 lg:w-1/3 hover:scale-110">
+            <img src="./images/image 18.svg" alt="" class="w-2/3 lg:w-1/4 hover:scale-110">
+        </div>
+        <!-- Button -->
+        <div class="buttondiv w-full text-center lg:text-right pr-4 lg:pr-28"> 
+            <button type="button" class="roboto-light text-gray-500 mt-6 lg:mt-8 bg-[#2C2C2C] text-white focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium text-sm lg:text-base px-4 lg:px-6 py-2 lg:py-3 "> <!-- Adjusted padding and font size for responsiveness -->
+                ALL PROJECTS <i class="ri-arrow-right-line ml-1"></i> 
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="page5 w-full min-h-screen  lg:flex lg:justify-between lg:items-center px-4 lg:px-10 py-8 "> 
+    <div class="contactdiv w-full lg:w-1/2 px-4 lg:px-20"> 
+        <h1 class="roboto-light text-gray-300 text-2xl lg:text-6xl mb-6">Contact Us</h1> 
+        <div class="inputdiv w-full lg:w-3/4 flex flex-col gap-4"> 
+            <input type="text" placeholder="Name" class="border bg-gray-200 h-12 px-4" required> 
+            <input type="tel" placeholder="Phone Number" class="border bg-gray-200 h-12 px-4" required> 
+            <input type="email" placeholder="Email" class="border bg-gray-200 h-12 px-4" required> 
+            <input type="text" placeholder="Interested in" class="border bg-gray-200 h-12 px-4" required> 
+            <textarea placeholder="Message" class="border bg-gray-200 h-24 px-4 py-2 resize-none" required></textarea> 
+        </div>
+    </div>
+    <div class="image mt-10 lg:mt-0">
+        <img src="./images/image 12.svg" alt="" class="w-full "> 
+    </div>
+
+</div>
+    <div class="lg:w-[20%] lg:h-[10%] flex  items-center mx-4  pl-28 pb-20 ">
+<button type="button" class="roboto-light text-gray-500 mt-6 lg:mt-8 bg-[#2C2C2C] text-white focus:ring-4 focus:outline-none focus:ring-green-300  dark:focus:ring-green-800 font-medium text-xs lg:text-sm px-4 py-4 lg:px-6 lg:py-4 text-center me-2  lg:ml-0">
+    SEND EMAIL <i class="ri-arrow-right-line"></i>
+</button>
+</div>
+
+<footer class="bg-[#2C2C2C] py-8  lg:h-[60vh]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-wrap  justify-between">
+            <!-- Column 1 -->
+            <div class="text-white w-full lg:w-1/2 xl:w-1/3">
+                <div class="footer-Logo flex">
+                    <img src="./images/Group 11 1.svg" alt="" class="w-15 h-10 md:w-12 md:h-12 lg:w-[15vw] lg:h-[15vh]">
+                
+                </div>
+               
+            </div>
+
+            <!-- Column 2 -->
+            <div class="text-white w-full lg:w-[30vw] xl:w-2/3 flex flex-wrap justify-between ">
+                <div class="w-full lg:w-1/4 xl:w-1/5 mt-8 lg:mt-0 ">
+                    <h3 class="text-lg font-semibold mb-8">Information</h3>
+                    <ul>
+                        <div class="flex flex-col gap-2">
+                        <li><a class="hover:text-black" href="#" class="text-white">Main</a></li>
+                        <li><a class="hover:text-black" href="#" class="text-white">Gallery</a></li>
+                        <li><a class="hover:text-black" href="#" class="text-white">Projects</a></li>
+                        <li><a class="hover:text-black" href="#" class="text-white">Certification</a></li>
+                        <li><a class="hover:text-black" href="#" class="text-white">Contacts</a></li>
+                        <!-- Add more links if needed -->
+                    </div>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="w-full lg:w-1/3 xl:w-1/5 mt-8 lg:mt-0 ">
+                    <h3 class="text-lg font-semibold mb-8 ">Contacts</h3>
+                    <ul >
+                        <div class="flex flex-col gap-3">
+                        <li class="flex  gap-4">
+                        <img src="./images/Vector.svg" alt="" class="lg:text-center" >
+                        <a class="hover:text-black" href="#" class="text-white">1234 Sample street Texas 78704</a>
+                    </li>
+                        <li><a href="#" class="text-white"></a></li>
+                        <li><a href="#" class="text-white"></a></li>
+                        <li class="flex gap-4">
+                        <img src="./images/Group.svg" alt="">
+                       <a class="hover:text-black" href="#" class="text-white">512.333.2222</a>
+                    </li>
+                    <li class="flex gap-4">
+                        <img src="./images/Group (1).svg" alt="">
+                        <a class="hover:text-black" href="#" class="text-white">Sampleemail@gmail.com</a>
+                        </li>
+                    </div>
+                        <!-- Add more links if needed -->
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="w-full lg:w-1/4 xl:w-3/5 mt-8 lg:mt-0 ">
+                    <h3 class="text-lg font-semibold mb-8 lg:text-center">Social Media</h3>
+                    <div class="mt-4 flex flex-row gap-5 mb:8 lg:mb-0 lg:items-center lg:justify-center">
+                        <img src="./images/facebook.svg" alt="" class="hover:scale-110">
+                        <img src="./images/twitter.svg" alt="" class="hover:scale-110">
+                       <img src="./images/Linked In.svg" alt="" class="hover:scale-110">
+                       <img src="./images/pininterest.svg" alt="" class="hover:scale-110">
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line w-full h-[1px] bg-gray-600 mt-8 lg:mt-20"></div>
+    <div class="w-full lg:flex justify-center lg:items-center mt-8">
+    <img src="./images/© 2016 Landing. All.svg" alt="" class="lg:w-[15%] w-[40%] mt-8 lg:mt-0 text-center">
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
